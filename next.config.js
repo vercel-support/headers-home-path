@@ -13,6 +13,10 @@ module.exports = {
             key: 'x-another-custom-header',
             value: 'my other custom header value',
           },
+          {
+             key: 'Content-Security-Policy',
+             value: "default-src 'self' trusted.com *.trusted.com"
+          }
         ],
       },
     ]
